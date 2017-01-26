@@ -208,6 +208,13 @@ public class Test
 		}
 
 		activeUsers.clear();
+		
+		// print 1000 most commented food items (item ids)
+		// the same as above
+
+		
+		// print 1000 most used words in the reviews
+		// the same as above
 	}
 
 	private void find1000s(CSVRecord csvRecord)
