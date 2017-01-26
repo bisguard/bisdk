@@ -68,8 +68,7 @@ public class Test
 
 	private ThreadPool pool;
 
-	final private long maxRAM = //500000000L;
-								  4000000000L;
+	final private long maxRAM = 500000000L;
 	final private long minAllowedMemory = 500000L;
 
 	private List<Integer> hashCodes = new ArrayList<Integer>();
@@ -360,8 +359,8 @@ public class Test
 						// test printing
 						System.out.println(csvRecord);
 						
-						errorLog.log(Level.WARNING, "Free memory (bytes): " + freeMemory +
-								" is too low");
+						errorLog.log(Level.WARNING, "Free memory (bytes): " 
+													+ freeMemory + " is too low");
 
 //						we use everywhere hardcoded sleep() instead of 
 //						pair wait/notify for first rough test only
